@@ -1,0 +1,62 @@
+#include <iostream>
+#include <string.h>
+using namespace std;
+
+using namespace	std;
+#define MAX 5;
+class list(
+	int a[MAX];
+
+ public:
+	 void pushback;
+	 
+	 int size;
+	 void pushfront;
+	 list() { size = 0; };
+	 int getLenght();
+	 bool remove;
+		 bool set() {
+		 int i, int cap
+	 };
+	 int get(int i) {};
+
+
+
+	 )
+	int list::get(int index) {
+		 int ind = index - 1;
+		 if (i >= cap || i < 0 || i >= size)
+		 {
+			 cout << "Not Found ";
+			 return false;
+		 }
+		 else 
+		 return a[i];
+	 }
+
+	 bool list::remove(int i) {
+		 int i = i - 1;
+		 if (i >= cap || i < 0 || i >= size)
+			 return false;
+		 for (int pos = i; pos < size; pos++)
+			 arr[pos] = arr[pos + 1];
+		 size--;
+		 return true;
+	 }
+
+
+
+
+	 void list::pushpack(int val) {
+		 arr[size] = val;
+		 if (size == cap)return;
+		 size++;
+	 }
+
+
+
+
+
+
+
+	)
